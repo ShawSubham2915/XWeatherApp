@@ -53,7 +53,7 @@ const Weather = () => {
         <button onClick={fetchWeather}>Search</button>
       </div>
 
-      {loading && <p>Loading Data...</p>}
+      {loading && <p>Loading data...</p>}
 
       {weatherData && (
           <div className='weather-cards'>
